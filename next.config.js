@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/Balouapp',
   images: {
     unoptimized: true,
     domains: ['images.unsplash.com', 'cdn-icons-png.flaticon.com'],
